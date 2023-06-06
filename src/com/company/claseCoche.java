@@ -25,7 +25,7 @@ public class claseCoche {
             this.velocidad += cantidad;
         }
     }
-
+    // Esto se creo con el click derecho > generate > toString
     @Override
     public String toString() {
         return "claseCoche{" +

@@ -11,7 +11,7 @@ public class switchCase {
                 break;
             default: // cuando no hay coinsidencia
                 System.out.println("No se identifico el clima");
-                break
+                break;
         }
     }
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class claseCoche {
+public class Coche {
     // Atributos
     String color;
     String fabricante;
@@ -10,6 +10,9 @@ public class claseCoche {
     Integer velocidad;
 
     //CONSTRUCTORES
+    public Coche() {
+
+    }
     public Coche(String color, String fabricante, String modelo, Double peso, Double largo, Integer velocidad){
         this.color = color;
         this.fabricante= fabricante;

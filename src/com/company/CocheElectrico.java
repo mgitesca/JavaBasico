@@ -16,6 +16,12 @@ public class CocheElectrico extends Coche{
         super(color, fabricante, modelo, peso, largo, velocidad);
         this.motorElectrico = motorElectrico;
     }
+    // sobre escritura del metodo acelerar
+    @Override
+    public void acelerar(Integer cantidad) {
+        Integer cantidadAjustada = cantidad*2;
+        super.acelerar(cantidadAjustada);
+    }
 
     @Override
     public String toString() {

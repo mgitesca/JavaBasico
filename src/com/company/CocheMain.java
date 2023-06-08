@@ -36,6 +36,8 @@ public class CocheMain {
         System.out.println("_____ Coche Electrico con MetodoSuper _______");
         CocheElectrico cocheElec3 = new CocheElectrico("Gris", "Rivian", "Trucc", 2500.0,6.12, 0,"MotorRivian");
         System.out.println(cocheElec3);
+        cocheElec3.acelerar(50);
+        System.out.println(cocheElec3);
 
 
 

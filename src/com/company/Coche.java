@@ -1,5 +1,10 @@
 package com.company;
 
+/*
+Cuando la clase es abstract no se pueden crear objetos a
+partir de esta, solo de las clases hijas
+ */
+//public abstract  class  Coche {
 public class Coche {
     // Atributos
     String color;

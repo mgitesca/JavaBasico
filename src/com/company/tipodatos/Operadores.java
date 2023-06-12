@@ -1,4 +1,4 @@
-package com.company;
+package com.company.tipodatos;
 
 public class Operadores {
     public static void main(String[] args){
@@ -14,7 +14,7 @@ public class Operadores {
         int resultado4= num1/ num2;
 
         /*
-        OPERADORES LOGICOS COMPARACION
+        OPERADORES LOGICOS COMPARACIÓN
         > mayor que
         >= mayor o igual que
         < menor que

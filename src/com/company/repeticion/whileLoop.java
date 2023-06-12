@@ -1,4 +1,4 @@
-package com.company;
+package com.company.repeticion;
 
 public class whileLoop {
     public static void main(String[] args) {

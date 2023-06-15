@@ -7,7 +7,8 @@ public class TryCatchMain {
         try{
             // Codigo que puede dar errores
             int result = 5/0;
-        } catch (ArithmeticException e){
+        //} catch (Exception e){   Captura todas las exception
+        } catch (ArithmeticException e){ // catch (<TipoException> e) el e siempre va
             e.printStackTrace();
         } finally {
             System.out.println("Cierre de recursos");

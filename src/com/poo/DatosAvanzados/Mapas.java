@@ -20,8 +20,8 @@ public class Mapas {
         System.out.println(mapa.get("clave1"));
 
         // interar sobre el diccionario
-
-        for (Map.Entry elemento: mapa.entrySet()) {
+        // Map.Entry deberia recibir los mismos parametros del HashMap<String, Integer>
+        for (Map.Entry<String, Integer> elemento: mapa.entrySet()) {
             System.out.println(elemento); // regresa key=value
             System.out.println(elemento.getKey()); // regresa solo el key
             System.out.println(elemento.getValue()); // regresa solo el valor

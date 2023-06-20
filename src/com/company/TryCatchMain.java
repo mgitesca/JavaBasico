@@ -16,5 +16,31 @@ public class TryCatchMain {
         }
         System.out.println("FIN");
 
+
+        /*
+                // 7.  DividePorCero
+        System.out.println("____DividePorCero_____");
+        try {
+            DividePorCero(4,0);
+
+        } catch (Exception e) {
+            System.out.println("Esto no puede hacerse");
+        } finally {
+            System.out.println("Demo de código");
+        }
+
+
+            public static int DividePorCero (int a, int b) throws ArithmeticException{
+        int div =0;
+        try{
+            div = a/b;
+        } catch (ArithmeticException e){
+            throw  new ArithmeticException();
+        }
+
+        return div;
+    }
+         */
+
     }
 }
